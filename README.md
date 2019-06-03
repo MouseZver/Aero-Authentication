@@ -9,5 +9,5 @@
 - Все остальные действия сделает Akame
 
 Конфиги:
-- [Akame](/MouseZver/Aero-Authentication/blob/master/php/77084/src/Auth/Authentication/conf.php)
-- [Lerma](/MouseZver/Aero-Authentication/blob/master/php/77084/src/Lerma/Database/conf.php)
+- [Akame](/php/77084/src/Auth/Authentication/conf.php)
+- [Lerma](/php/77084/src/Lerma/Database/conf.php)
