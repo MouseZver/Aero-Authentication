@@ -15,7 +15,7 @@ if ( Akame :: ifRemember() )
 	// u детектед
 	echo json_encode ( [ 'content' => 'Ты авторизован' ], JSON_UNESCAPED_UNICODE );
 }
-elseif ( filter_input ( INPUT_SERVER, 'REQUEST_METHOD' ) == 'POST' )
+elseif ( getenv ( 'REMOTE_ADDR' ) == 'POST' )
 {
 	/* $input = filter_input_array ( INPUT_POST, [
 		'login' => FILTER_DEFAULT,
